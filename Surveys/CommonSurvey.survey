@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document docversion="1" mtsversion="3.0.0">
+    <comment msgid="1">
+        <content>Your document description here</content>
+        <note>This document created by mike on 10-28-2014 10:19</note>
+    </comment>
+    <section msgid="2" name="CommonSurvey">
+        <subelements>
+            <question characteristic="First_Name" msgid="6">
+                <subelements></subelements>
+                <content></content>
+            </question>
+            <question characteristic="Last_Name" msgid="7">
+                <subelements></subelements>
+                <content></content>
+            </question>
+            <question characteristic="Gender" msgid="8">
+                <subelements></subelements>
+                <content></content>
+            </question>
+            <question characteristic="NetID" msgid="9">
+                <subelements></subelements>
+                <content></content>
+            </question>
+        </subelements>
+    </section>
+</document>
+

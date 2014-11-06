@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document docversion="1" mtsversion="3.0.0">
+    <comment msgid="1">
+        <content>Sample Inbox</content>
+        <note>This document created by ezzomich on 11-04-2014 13:01</note>
+    </comment>
+    <section msgid="2" name="InboxControl">
+        <subelements>
+            <block msgid="86" tag="messages">
+                <subelements>
+                    <text msgid="87" tag="file">
+                        <content>Welcome</content>
+                    </text>
+                    <text msgid="88" tag="subject">
+                        <content>[Welcome] About E&lt;sup&gt;2&lt;/sup&gt;Coach</content>
+                    </text>
+                </subelements>
+            </block>
+        </subelements>
+    </section>
+</document>
+

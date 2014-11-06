@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document docversion="1" mtsversion="3.0.0">
+    <comment msgid="1">
+        <content>This is my first stab at a message</content>
+        <note>This document created by mike on 10-28-2014 23:12</note>
+    </comment>
+    <section msgid="2" name="Main_Text">
+        <subelements>
+            <text msgid="3">
+                <content>Essentially, this is the equivalent of a hello world!</content>
+            </text>
+        </subelements>
+    </section>
+</document>
+

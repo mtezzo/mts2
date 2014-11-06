@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document docversion="1" mtsversion="3.0.0">
+    <section msgid="11" name="Main_Text">
+        <subelements>
+            <text msgid="12" tag="message">
+                <content>Hello World!</content>
+            </text>
+        </subelements>
+    </section>
+</document>
+

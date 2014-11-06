@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <basetypes>
+        <basetype name="string">Text</basetype>
+        <basetype default="-1" name="int">Number (no decimal)</basetype>
+        <basetype default="-99.9" name="decimal">Number (with decimal)</basetype>
+        <basetype default="1904-01-01 00:00:00T-0500" name="datetime">Date (YYYY-MM-DD hh:mm)</basetype>
+    </basetypes>
+    <sources></sources>
+    <keywords></keywords>
+    <characteristics>
+        <characteristic basetype="string" derived="no" multivalued="no" name="SLCENROLLED" required="no" restriction="_SLCENROLLED">
+            <question>Are you currently enrolled in the Science Learning Center?</question>
+        </characteristic>
+        <characteristic basetype="string" derived="no" multivalued="no" name="First_Name" required="yes">
+            <question>What is your first name?</question>
+        </characteristic>
+        <characteristic basetype="string" derived="no" multivalued="no" name="Last_Name" required="yes">
+            <question>What is your last name?</question>
+        </characteristic>
+        <characteristic basetype="string" derived="no" multivalued="no" name="NetID" required="yes">
+            <question>What is your MSU NetID?</question>
+        </characteristic>
+        <characteristic basetype="string" derived="no" multivalued="no" name="Gender" required="yes" restriction="_Gender">
+            <question>What is your gender?</question>
+        </characteristic>
+    </characteristics>
+    <restrictions>
+        <restriction name="_SLCENROLLED">
+            <value symbol="Yes" text="Yes"></value>
+            <value symbol="No" text="No"></value>
+        </restriction>
+        <restriction name="_Gender">
+            <value symbol="M" text="Male"></value>
+            <value symbol="F" text="Female"></value>
+        </restriction>
+    </restrictions>
+</dictionary>
+

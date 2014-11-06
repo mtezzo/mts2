@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document docversion="1" mtsversion="3.0.0">
+    <comment msgid="1">
+        <content>Your document description here</content>
+        <note>This document created by mike on 11-04-2014 15:30</note>
+    </comment>
+    <section msgid="2" name="Section1">
+        <subelements>
+            <question characteristic="SLCENROLLED" msgid="3">
+                <subelements></subelements>
+                <content></content>
+            </question>
+        </subelements>
+    </section>
+</document>
+
