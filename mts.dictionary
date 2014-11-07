@@ -6,7 +6,9 @@
         <basetype default="-99.9" name="decimal">Number (with decimal)</basetype>
         <basetype default="1904-01-01 00:00:00T-0500" name="datetime">Date (YYYY-MM-DD hh:mm)</basetype>
     </basetypes>
-    <sources></sources>
+    <sources>
+        <source derived="no" name="Source1"></source>
+    </sources>
     <keywords></keywords>
     <characteristics>
         <characteristic basetype="string" derived="no" multivalued="no" name="SLCENROLLED" required="no" restriction="_SLCENROLLED">
